@@ -9,12 +9,13 @@
 #include <algorithm>
 #include "iostream"
 #include "string"
-#include "Component.h"
+#include "Component.cpp"
 
 using namespace std;
 
 class Object {
     private:
+        int id;
         string name;
         string tag;
         vector<Component*> attachedComponents;
@@ -22,6 +23,7 @@ class Object {
     public:
         //
         Object();
+        ~Object();
 
         //
         string getName();

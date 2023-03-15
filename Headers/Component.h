@@ -12,11 +12,14 @@ using namespace std;
 
 class Component {
     private:
+        int id;
         string name;
         //Object* objectAttached;
 
     public:
         Component();
+        ~Component();
+
         static const int instance_component = 0;
 };
 

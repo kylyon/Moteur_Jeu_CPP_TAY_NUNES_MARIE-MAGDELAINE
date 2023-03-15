@@ -7,15 +7,21 @@
 
 #include "iostream"
 #include "string"
+#include "vector"
+#include "Object.cpp"
 
 using namespace std;
 
 class Scene
 {
-private:
-    string name;
+    private:
+        int id;
+        string name;
+        vector<Object*> objects;
 
-public:
+    public:
+        void Run();
+        void Stop();
 
 };
 

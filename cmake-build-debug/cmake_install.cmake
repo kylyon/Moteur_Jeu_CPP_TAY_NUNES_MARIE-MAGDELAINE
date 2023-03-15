@@ -1,4 +1,4 @@
-# Install script for directory: G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE
+# Install script for directory: D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

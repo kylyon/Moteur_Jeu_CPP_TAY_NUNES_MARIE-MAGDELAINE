@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "G:/Logiciel/VisualStudio/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/lib.exe"
+			"value" : "D:/Logiciel/Visual Studio/VC/Tools/MSVC/14.35.32215/bin/Hostx86/x86/lib.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "g:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug"
+			"value" : "d:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -78,6 +78,42 @@
 			"value" : "2"
 		},
 		{
+			"name" : "CMAKE_CODEBLOCKS_COMPILER_ID",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Id string of the compiler for the CodeBlocks IDE. Automatically detected when left empty"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_CODEBLOCKS_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The CodeBlocks executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_CODEBLOCKS_MAKE_ARGUMENTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Additional command line arguments when CodeBlocks invokes make. Enter e.g. -j<some_number> to get parallel builds"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
 			"properties" : 
 			[
@@ -99,7 +135,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "F:/Logiciel/JetBrains Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/bin/cmake.exe"
+			"value" : "C:/Users/kylli/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -111,7 +147,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "F:/Logiciel/JetBrains Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/bin/cpack.exe"
+			"value" : "C:/Users/kylli/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -123,7 +159,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "F:/Logiciel/JetBrains Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/bin/ctest.exe"
+			"value" : "C:/Users/kylli/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -139,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "G:/Logiciel/VisualStudio/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe"
+			"value" : "D:/Logiciel/Visual Studio/VC/Tools/MSVC/14.35.32215/bin/Hostx86/x86/cl.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -251,7 +287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "G:/Logiciel/VisualStudio/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe"
+			"value" : "D:/Logiciel/Visual Studio/VC/Tools/MSVC/14.35.32215/bin/Hostx86/x86/cl.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -375,7 +411,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : "/machine:X86"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -442,22 +478,6 @@
 			"value" : "/debug /INCREMENTAL"
 		},
 		{
-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable output of compile commands during generation."
-				}
-			],
-			"type" : "BOOL",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
 			"properties" : 
 			[
@@ -467,7 +487,31 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "CodeBlocks"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler system include directories"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:\\Logiciel\\Visual Studio\\VC\\Tools\\MSVC\\14.35.32215\\include;D:\\Logiciel\\Visual Studio\\VC\\Tools\\MSVC\\14.35.32215\\ATLMFC\\include;D:\\Logiciel\\Visual Studio\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler system include directories"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:\\Logiciel\\Visual Studio\\VC\\Tools\\MSVC\\14.35.32215\\include;D:\\Logiciel\\Visual Studio\\VC\\Tools\\MSVC\\14.35.32215\\ATLMFC\\include;D:\\Logiciel\\Visual Studio\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
 		},
 		{
 			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
@@ -479,7 +523,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -491,7 +535,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "NMake Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -539,7 +583,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE"
+			"value" : "D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -567,19 +611,23 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "G:/Logiciel/VisualStudio/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/link.exe"
+			"value" : "D:/Logiciel/Visual Studio/VC/Tools/MSVC/14.35.32215/bin/Hostx86/x86/link.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "make program"
+					"value" : "Program used to build from makefiles."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "F:/Logiciel/JetBrains Toolbox/apps/CLion/ch-0/223.8836.42/bin/ninja/win/x64/ninja.exe"
+			"type" : "STRING",
+			"value" : "nmake"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -595,7 +643,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : "/machine:X86"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
@@ -675,7 +723,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/mt.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x86/mt.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -763,7 +811,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/rc.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x86/rc.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -867,7 +915,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "F:/Logiciel/JetBrains Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24"
+			"value" : "C:/Users/kylli/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -883,7 +931,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : "/machine:X86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
@@ -995,7 +1043,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : "/machine:X86"
 		},
 		{
 			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
@@ -1087,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug"
+			"value" : "D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug"
 		},
 		{
 			"name" : "Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE_IS_TOP_LEVEL",
@@ -1111,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE"
+			"value" : "D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE"
 		}
 	],
 	"kind" : "cache",

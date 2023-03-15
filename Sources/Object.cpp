@@ -5,7 +5,7 @@
 #include "../Headers/Object.h"
 Object::Object() {
     this->name = "Objet";
-    this->attachedComponents = vector<Component>();
+    this->attachedComponents = vector<Component*>();
     this->tag = "Aucun";
 }
 
