@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Component.cpp.obj.d"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Object.cpp.obj"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Object.cpp.obj.d"
+  "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Pool.cpp.obj"
+  "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Pool.cpp.obj.d"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Scene.cpp.obj"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Scene.cpp.obj.d"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/main.cpp.obj"

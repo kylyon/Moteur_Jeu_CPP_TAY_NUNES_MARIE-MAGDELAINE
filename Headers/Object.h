@@ -9,7 +9,8 @@
 #include <algorithm>
 #include "iostream"
 #include "string"
-#include "Component.cpp"
+#include "Component.h"
+#include "Pool.h"
 
 using namespace std;
 
@@ -21,6 +22,9 @@ class Object {
         vector<Component*> attachedComponents;
 
     public:
+        static Pool g_Arena;
+        static int m_currentIndex;
+
         //
         Object();
         ~Object();
@@ -42,6 +46,15 @@ class Object {
 
         template<class ComponentType>
         vector<ComponentType> getComponents();
+
+        void* operator new(const ::size_t size);
+
+        void operator delete(void* pointer);
+
+        inline static void CreatePool(int count)
+        {
+            g_Arena.Initialise(count * sizeof(Object));
+        }
 };
 
 

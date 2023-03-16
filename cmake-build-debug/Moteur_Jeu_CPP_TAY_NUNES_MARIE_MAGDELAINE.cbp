@@ -92,6 +92,9 @@
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Object.h">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Pool.h">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Scene.h">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
@@ -99,6 +102,9 @@
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Object.cpp">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Pool.cpp">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Scene.cpp">

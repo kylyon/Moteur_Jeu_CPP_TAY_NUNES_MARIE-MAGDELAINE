@@ -3,10 +3,18 @@
 //
 
 #include "../Headers/Object.h"
+
+Pool Object::g_Arena = Pool();
+int m_currentIndex = 0;
+
 Object::Object() {
     this->name = "Objet";
     this->attachedComponents = vector<Component*>();
     this->tag = "Aucun";
+}
+
+Object::~Object() {
+    delete this;
 }
 
 void Object::setName(string name) {
@@ -35,7 +43,7 @@ void Object::addComponent(Component* component) {
 }
 
 void Object::removeComponent(Component* component) {
-    remove(this->attachedComponents.begin(), this->attachedComponents.end(),component);
+    //remove(this->attachedComponents.begin(), this->attachedComponents.end(),component);
 }
 
 template<class ComponentType>
@@ -60,3 +68,13 @@ vector<ComponentType> Object::getComponents() {
     }
     return componentsReturn;
 }
+
+void* Object::operator new(const ::size_t size)
+{
+    return g_Arena.Allocate(size);
+}
+
+void Object::operator delete(void* pointer)
+{
+    return;
+};

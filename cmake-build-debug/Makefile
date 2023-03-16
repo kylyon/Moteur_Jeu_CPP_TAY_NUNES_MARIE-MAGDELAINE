@@ -166,6 +166,30 @@ Sources\Object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Object.cpp.s
 .PHONY : Sources\Object.cpp.s
 
+Sources\Pool.obj: Sources\Pool.cpp.obj
+.PHONY : Sources\Pool.obj
+
+# target to build an object file
+Sources\Pool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Pool.cpp.obj
+.PHONY : Sources\Pool.cpp.obj
+
+Sources\Pool.i: Sources\Pool.cpp.i
+.PHONY : Sources\Pool.i
+
+# target to preprocess a source file
+Sources\Pool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Pool.cpp.i
+.PHONY : Sources\Pool.cpp.i
+
+Sources\Pool.s: Sources\Pool.cpp.s
+.PHONY : Sources\Pool.s
+
+# target to generate assembly for a file
+Sources\Pool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Pool.cpp.s
+.PHONY : Sources\Pool.cpp.s
+
 Sources\Scene.obj: Sources\Scene.cpp.obj
 .PHONY : Sources\Scene.obj
 
@@ -229,6 +253,9 @@ help:
 	@echo ... Sources/Object.obj
 	@echo ... Sources/Object.i
 	@echo ... Sources/Object.s
+	@echo ... Sources/Pool.obj
+	@echo ... Sources/Pool.i
+	@echo ... Sources/Pool.s
 	@echo ... Sources/Scene.obj
 	@echo ... Sources/Scene.i
 	@echo ... Sources/Scene.s

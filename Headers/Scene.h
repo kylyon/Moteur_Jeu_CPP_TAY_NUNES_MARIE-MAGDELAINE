@@ -8,7 +8,7 @@
 #include "iostream"
 #include "string"
 #include "vector"
-#include "Object.cpp"
+#include "Object.h"
 
 using namespace std;
 
@@ -18,11 +18,17 @@ class Scene
         int id;
         string name;
         vector<Object*> objects;
+        int nbObjects;
 
     public:
+        Scene();
+
         void Run();
         void Stop();
 
+        int getNbObject();
+        string getName();
+        void setName(string name);
 };
 
 #endif //MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_SCENE_H
