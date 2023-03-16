@@ -20,6 +20,7 @@ class Scene
         string name;
         ObjectManager* objectManager;
         TagManager* tagManager;
+        vector<Object> objetByTag;
         int nbObjects;
 
     public:

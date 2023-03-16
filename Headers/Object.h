@@ -65,8 +65,13 @@ class Object {
 
         void operator delete(void* pointer);
 
-        Object& operator=(const Object& obj)
+        Object& operator=(Object obj)
         {
+            swap(id,obj.id);
+            swap(isActivated,obj.isActivated);
+            swap(name,obj.name);
+            swap(tag,obj.tag);
+            swap(attachedComponents,obj.attachedComponents);
             return *this;
         }
 

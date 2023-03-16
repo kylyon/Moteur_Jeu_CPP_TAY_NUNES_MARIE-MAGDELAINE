@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/Tag.cpp.obj.d"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/TagManager.cpp.obj"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/TagManager.cpp.obj.d"
+  "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/TransformComponent.cpp.obj"
+  "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/Sources/TransformComponent.cpp.obj.d"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/main.cpp.obj"
   "CMakeFiles/Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir/main.cpp.obj.d"
   "Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.exe"

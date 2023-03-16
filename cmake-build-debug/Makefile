@@ -286,6 +286,30 @@ Sources\TagManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TagManager.cpp.s
 .PHONY : Sources\TagManager.cpp.s
 
+Sources\TransformComponent.obj: Sources\TransformComponent.cpp.obj
+.PHONY : Sources\TransformComponent.obj
+
+# target to build an object file
+Sources\TransformComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TransformComponent.cpp.obj
+.PHONY : Sources\TransformComponent.cpp.obj
+
+Sources\TransformComponent.i: Sources\TransformComponent.cpp.i
+.PHONY : Sources\TransformComponent.i
+
+# target to preprocess a source file
+Sources\TransformComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TransformComponent.cpp.i
+.PHONY : Sources\TransformComponent.cpp.i
+
+Sources\TransformComponent.s: Sources\TransformComponent.cpp.s
+.PHONY : Sources\TransformComponent.s
+
+# target to generate assembly for a file
+Sources\TransformComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TransformComponent.cpp.s
+.PHONY : Sources\TransformComponent.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -340,6 +364,9 @@ help:
 	@echo ... Sources/TagManager.obj
 	@echo ... Sources/TagManager.i
 	@echo ... Sources/TagManager.s
+	@echo ... Sources/TransformComponent.obj
+	@echo ... Sources/TransformComponent.i
+	@echo ... Sources/TransformComponent.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

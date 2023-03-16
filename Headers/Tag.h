@@ -21,8 +21,10 @@ Tag(string name, int id);
 int getID();
 string getName();
 
-Tag& operator=(const Tag& obj)
+Tag& operator=(Tag obj)
 {
+    swap(name, obj.name);
+    swap(id, obj.id);
     return *this;
 }
 

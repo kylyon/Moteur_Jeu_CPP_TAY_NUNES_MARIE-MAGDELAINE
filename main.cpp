@@ -18,4 +18,9 @@ int main() {
 
     scene.Run();
 
+    vector<Object> temp = scene.FindObjectWithTag(scene.GetTagManager()->GetTag(1));
+    for (int i = 0; i < temp.size(); i++) {
+        cout << temp[i].getID() << endl;
+    }
+
 }

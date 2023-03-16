@@ -8,6 +8,7 @@ Scene::Scene() {
     this->id = 0;
     this->tagManager = TagManager::GetInstance();
     this->objectManager = ObjectManager::GetInstance();
+    this->objetByTag = vector<Object>();
     this->nbObjects = 0;
 }
 
@@ -39,15 +40,14 @@ void Scene::setName(string name) {
 
 vector<Object> Scene::FindObjectWithTag(Tag tag)
 {
-    vector<Object> temp = vector<Object>();
-    temp.reserve(objectManager->GetNbObject());
+    objetByTag.clear();
     for (int i = 0; i < objectManager->GetNbObject(); ++i) {
         Object obj = objectManager->GetObject(i);
         if (obj.getTag().getID() == tag.getID())
         {
-            temp.emplace_back(obj);
+            objetByTag.emplace_back(obj);
         }
     }
 
-    return temp;
+    return objetByTag;
 }
