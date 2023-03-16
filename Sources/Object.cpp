@@ -4,17 +4,57 @@
 
 #include "../Headers/Object.h"
 
-Pool Object::g_Arena = Pool();
-int m_currentIndex = 0;
+Arena Object::g_Arena = Arena();
+int Object::m_currentIndex = 0;
 
 Object::Object() {
     this->name = "Objet";
     this->attachedComponents = vector<Component*>();
-    this->tag = "Aucun";
+    this->id = Object::m_currentIndex;
+    Object::m_currentIndex++;
+    this->isActivated = true;
 }
 
+Object::Object(Tag tag) {
+    this->name = "Objet";
+    this->attachedComponents = vector<Component*>();
+    this->tag = tag;
+    this->id = Object::m_currentIndex;
+    Object::m_currentIndex++;
+    this->isActivated = true;
+}
+
+Object::Object(int id, bool activate, string name, Tag tag, vector<Component*> components)
+{
+    this->name = name;
+    this->attachedComponents = components;
+    this->tag = tag;
+    this->id = id;
+    this->isActivated = activate;
+}
+
+Object::Object(const Object& obj)
+{
+    this->name = obj.name;
+    this->attachedComponents = obj.attachedComponents;
+    this->tag = obj.tag;
+    this->id = obj.id;
+    this->isActivated = obj.isActivated;
+}
+
+
 Object::~Object() {
-    delete this;
+    //delete this;
+}
+
+int Object::getID()
+{
+    return this->id;
+}
+
+void Object::setID(int id)
+{
+    this->id = id;
 }
 
 void Object::setName(string name) {
@@ -25,11 +65,11 @@ string Object::getName() {
     return this->name;
 }
 
-void Object::setTag(string tag) {
+void Object::setTag(Tag tag) {
     this->tag = tag;
 }
 
-string Object::getTag() {
+Tag Object::getTag() {
     return this->tag;
 }
 
@@ -78,3 +118,18 @@ void Object::operator delete(void* pointer)
 {
     return;
 };
+
+void Object::setActivate(bool b)
+{
+    this->isActivated = b;
+}
+
+void Object::toggleActivate()
+{
+    this->isActivated = !this->isActivated;
+}
+
+bool Object::isActivate()
+{
+    return isActivated;
+}

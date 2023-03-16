@@ -118,6 +118,30 @@ Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build
 .PHONY : Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE\fast
 
+Sources\Arena.obj: Sources\Arena.cpp.obj
+.PHONY : Sources\Arena.obj
+
+# target to build an object file
+Sources\Arena.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Arena.cpp.obj
+.PHONY : Sources\Arena.cpp.obj
+
+Sources\Arena.i: Sources\Arena.cpp.i
+.PHONY : Sources\Arena.i
+
+# target to preprocess a source file
+Sources\Arena.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Arena.cpp.i
+.PHONY : Sources\Arena.cpp.i
+
+Sources\Arena.s: Sources\Arena.cpp.s
+.PHONY : Sources\Arena.s
+
+# target to generate assembly for a file
+Sources\Arena.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Arena.cpp.s
+.PHONY : Sources\Arena.cpp.s
+
 Sources\Component.obj: Sources\Component.cpp.obj
 .PHONY : Sources\Component.obj
 
@@ -166,29 +190,29 @@ Sources\Object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Object.cpp.s
 .PHONY : Sources\Object.cpp.s
 
-Sources\Pool.obj: Sources\Pool.cpp.obj
-.PHONY : Sources\Pool.obj
+Sources\ObjectManager.obj: Sources\ObjectManager.cpp.obj
+.PHONY : Sources\ObjectManager.obj
 
 # target to build an object file
-Sources\Pool.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Pool.cpp.obj
-.PHONY : Sources\Pool.cpp.obj
+Sources\ObjectManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\ObjectManager.cpp.obj
+.PHONY : Sources\ObjectManager.cpp.obj
 
-Sources\Pool.i: Sources\Pool.cpp.i
-.PHONY : Sources\Pool.i
+Sources\ObjectManager.i: Sources\ObjectManager.cpp.i
+.PHONY : Sources\ObjectManager.i
 
 # target to preprocess a source file
-Sources\Pool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Pool.cpp.i
-.PHONY : Sources\Pool.cpp.i
+Sources\ObjectManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\ObjectManager.cpp.i
+.PHONY : Sources\ObjectManager.cpp.i
 
-Sources\Pool.s: Sources\Pool.cpp.s
-.PHONY : Sources\Pool.s
+Sources\ObjectManager.s: Sources\ObjectManager.cpp.s
+.PHONY : Sources\ObjectManager.s
 
 # target to generate assembly for a file
-Sources\Pool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Pool.cpp.s
-.PHONY : Sources\Pool.cpp.s
+Sources\ObjectManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\ObjectManager.cpp.s
+.PHONY : Sources\ObjectManager.cpp.s
 
 Sources\Scene.obj: Sources\Scene.cpp.obj
 .PHONY : Sources\Scene.obj
@@ -213,6 +237,54 @@ Sources\Scene.s: Sources\Scene.cpp.s
 Sources\Scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Scene.cpp.s
 .PHONY : Sources\Scene.cpp.s
+
+Sources\Tag.obj: Sources\Tag.cpp.obj
+.PHONY : Sources\Tag.obj
+
+# target to build an object file
+Sources\Tag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Tag.cpp.obj
+.PHONY : Sources\Tag.cpp.obj
+
+Sources\Tag.i: Sources\Tag.cpp.i
+.PHONY : Sources\Tag.i
+
+# target to preprocess a source file
+Sources\Tag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Tag.cpp.i
+.PHONY : Sources\Tag.cpp.i
+
+Sources\Tag.s: Sources\Tag.cpp.s
+.PHONY : Sources\Tag.s
+
+# target to generate assembly for a file
+Sources\Tag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\Tag.cpp.s
+.PHONY : Sources\Tag.cpp.s
+
+Sources\TagManager.obj: Sources\TagManager.cpp.obj
+.PHONY : Sources\TagManager.obj
+
+# target to build an object file
+Sources\TagManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TagManager.cpp.obj
+.PHONY : Sources\TagManager.cpp.obj
+
+Sources\TagManager.i: Sources\TagManager.cpp.i
+.PHONY : Sources\TagManager.i
+
+# target to preprocess a source file
+Sources\TagManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TagManager.cpp.i
+.PHONY : Sources\TagManager.cpp.i
+
+Sources\TagManager.s: Sources\TagManager.cpp.s
+.PHONY : Sources\TagManager.s
+
+# target to generate assembly for a file
+Sources\TagManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE.dir\Sources\TagManager.cpp.s
+.PHONY : Sources\TagManager.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -247,18 +319,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE
+	@echo ... Sources/Arena.obj
+	@echo ... Sources/Arena.i
+	@echo ... Sources/Arena.s
 	@echo ... Sources/Component.obj
 	@echo ... Sources/Component.i
 	@echo ... Sources/Component.s
 	@echo ... Sources/Object.obj
 	@echo ... Sources/Object.i
 	@echo ... Sources/Object.s
-	@echo ... Sources/Pool.obj
-	@echo ... Sources/Pool.i
-	@echo ... Sources/Pool.s
+	@echo ... Sources/ObjectManager.obj
+	@echo ... Sources/ObjectManager.i
+	@echo ... Sources/ObjectManager.s
 	@echo ... Sources/Scene.obj
 	@echo ... Sources/Scene.i
 	@echo ... Sources/Scene.s
+	@echo ... Sources/Tag.obj
+	@echo ... Sources/Tag.i
+	@echo ... Sources/Tag.s
+	@echo ... Sources/TagManager.obj
+	@echo ... Sources/TagManager.i
+	@echo ... Sources/TagManager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -6,11 +6,17 @@
 Scene::Scene() {
     this->name = "Scene";
     this->id = 0;
-    this->objects = vector<Object*>();
+    this->tagManager = TagManager::GetInstance();
+    this->objectManager = ObjectManager::GetInstance();
     this->nbObjects = 0;
 }
 
 void Scene::Run() {
+    for (int i = 0; i < objectManager->GetNbObject() ; ++i) {
+        Object temp = objectManager->GetObject(i);
+        cout << temp.getName() << " " << temp.getID() << " - " << temp.getTag().getName() << endl;
+    }
+
     return;
 }
 
@@ -29,4 +35,19 @@ string Scene::getName() {
 
 void Scene::setName(string name) {
     this->name = name;
+}
+
+vector<Object> Scene::FindObjectWithTag(Tag tag)
+{
+    vector<Object> temp = vector<Object>();
+    temp.reserve(objectManager->GetNbObject());
+    for (int i = 0; i < objectManager->GetNbObject(); ++i) {
+        Object obj = objectManager->GetObject(i);
+        if (obj.getTag().getID() == tag.getID())
+        {
+            temp.emplace_back(obj);
+        }
+    }
+
+    return temp;
 }

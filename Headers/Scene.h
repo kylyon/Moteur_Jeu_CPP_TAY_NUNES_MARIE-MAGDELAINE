@@ -8,7 +8,8 @@
 #include "iostream"
 #include "string"
 #include "vector"
-#include "Object.h"
+#include "ObjectManager.h"
+#include "TagManager.h"
 
 using namespace std;
 
@@ -17,7 +18,8 @@ class Scene
     private:
         int id;
         string name;
-        vector<Object*> objects;
+        ObjectManager* objectManager;
+        TagManager* tagManager;
         int nbObjects;
 
     public:
@@ -29,6 +31,18 @@ class Scene
         int getNbObject();
         string getName();
         void setName(string name);
+
+        ObjectManager* GetObjectManager()
+        {
+            return objectManager;
+        }
+
+        TagManager* GetTagManager()
+        {
+            return tagManager;
+        }
+
+        vector<Object> FindObjectWithTag(Tag tag);
 };
 
 #endif //MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_SCENE_H

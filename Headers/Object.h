@@ -10,32 +10,46 @@
 #include "iostream"
 #include "string"
 #include "Component.h"
-#include "Pool.h"
+#include "Arena.h"
+#include "Tag.h"
 
 using namespace std;
 
 class Object {
     private:
         int id;
+        bool isActivated;
         string name;
-        string tag;
+        Tag tag;
         vector<Component*> attachedComponents;
 
     public:
-        static Pool g_Arena;
+        static Arena g_Arena;
         static int m_currentIndex;
 
         //
         Object();
+        Object(Tag tag);
+        Object(int id, bool activate, string name, Tag tag, vector<Component*> components);
+        Object(const Object& obj);
         ~Object();
+
+        //
+        int getID();
+        void setID(int id);
 
         //
         string getName();
         void setName(string name);
 
         //
-        string getTag();
-        void setTag(string tag);
+        void setActivate(bool b);
+        void toggleActivate();
+        bool isActivate();
+
+        //
+        Tag getTag();
+        void setTag(Tag tag);
 
         //
         void addComponent(Component* component);
@@ -50,6 +64,11 @@ class Object {
         void* operator new(const ::size_t size);
 
         void operator delete(void* pointer);
+
+        Object& operator=(const Object& obj)
+        {
+            return *this;
+        }
 
         inline static void CreatePool(int count)
         {

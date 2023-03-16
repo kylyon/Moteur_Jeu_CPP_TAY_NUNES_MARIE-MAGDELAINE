@@ -86,16 +86,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Arena.h">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Component.h">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Object.h">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
-		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Pool.h">
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/ObjectManager.h">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Scene.h">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/Tag.h">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Headers/TagManager.h">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Arena.cpp">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Component.cpp">
@@ -104,10 +116,16 @@
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Object.cpp">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
-		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Pool.cpp">
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/ObjectManager.cpp">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Scene.cpp">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/Tag.cpp">
+			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
+		</Unit>
+		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/Sources/TagManager.cpp">
 			<Option target="Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE"/>
 		</Unit>
 		<Unit filename="D:/Cours/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/main.cpp">

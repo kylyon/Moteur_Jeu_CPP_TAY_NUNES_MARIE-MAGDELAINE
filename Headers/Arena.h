@@ -2,11 +2,11 @@
 // Created by kylli on 15/03/2023.
 //
 
-#ifndef MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_POOL_H
-#define MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_POOL_H
+#ifndef MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_ARENA_H
+#define MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_ARENA_H
 #include "iostream"
 
-class Pool {
+class Arena {
 public:
     uint8_t* m_memory;
     uint32_t m_cursor;
@@ -22,4 +22,4 @@ public:
 };
 
 
-#endif //MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_POOL_H
+#endif //MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_ARENA_H

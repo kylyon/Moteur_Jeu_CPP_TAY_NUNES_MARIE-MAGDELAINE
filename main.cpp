@@ -1,15 +1,21 @@
 #include <iostream>
-#include "Headers//Object.h"
+#include "Headers/Scene.h"
 
 int main() {
     Object::CreatePool(2048);
+    Scene scene = Scene();
 
-    cout << "Taille de la pool avant : " << Object::g_Arena.m_cursor << endl;
+    //cout << "Taille de la pool avant : " << Object::g_Arena.m_cursor << endl;
 
-    Object* obj1 = new Object();
-    Object* obj2 = new Object();
-    Object* obj3 = new Object();
-    Object* obj4 = new Object();
+    Object obj1 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(0));
+    Object obj2 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(1));
+    Object obj3 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(1));
+    Object obj4 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(2));
 
-    cout << "Taille de la pool après : " << Object::g_Arena.m_cursor << endl;
+    //cout << "Taille de la pool après : " << Object::g_Arena.m_cursor << endl;
+
+
+
+    scene.Run();
+
 }

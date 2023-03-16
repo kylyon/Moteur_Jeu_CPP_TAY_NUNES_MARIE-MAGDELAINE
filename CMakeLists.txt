@@ -3,4 +3,4 @@ project(Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE main.cpp Sources/Scene.cpp Headers/Scene.h Sources/Object.cpp Headers/Object.h Sources/Component.cpp Headers/Component.h Sources/Pool.cpp Headers/Pool.h)
+add_executable(Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE main.cpp Sources/Scene.cpp Headers/Scene.h Sources/Object.cpp Headers/Object.h Sources/Component.cpp Headers/Component.h Sources/Arena.cpp Headers/Arena.h Sources/ObjectManager.cpp Headers/ObjectManager.h Sources/Tag.cpp Headers/Tag.h Sources/TagManager.cpp Headers/TagManager.h)
