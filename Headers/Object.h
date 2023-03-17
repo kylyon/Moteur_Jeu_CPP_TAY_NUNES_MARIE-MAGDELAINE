@@ -14,6 +14,7 @@
 #include "Tag.h"
 
 using namespace std;
+class Component;
 
 class Object {
     private:
@@ -32,6 +33,7 @@ class Object {
         Object(Tag tag);
         Object(int id, bool activate, string name, Tag tag, vector<Component*> components);
         Object(const Object& obj);
+        Object(const Object* obj);
         ~Object();
 
         //
@@ -53,20 +55,21 @@ class Object {
 
         //
         void displayComponents() const;
+        void updateComponents();
 
         //
         void addComponent(Component* component);
         void removeComponent(Component* component);
 
         template<class ComponentType>
-        ComponentType getComponent();
+        ComponentType* getComponent();
 
         template<class ComponentType>
         vector<ComponentType> getComponents();
 
-        void* operator new(const ::size_t size);
+        vector<Component*> getComponents();
 
-        void operator delete(void* pointer);
+        void* operator new(const ::size_t size);
 
         Object& operator=(Object obj)
         {
@@ -83,6 +86,30 @@ class Object {
             g_Arena.Initialise(count * sizeof(Object));
         }
 };
+
+template<class ComponentType>
+ComponentType* Object::getComponent() {
+    for (int i = 0; i < this->attachedComponents.size(); i++) {
+        if (this->attachedComponents[i]->GetInstance() == ComponentType::instance_component)
+        {
+            return (ComponentType*) this->attachedComponents[i];
+        }
+    }
+    return nullptr;
+}
+
+template<class ComponentType>
+vector<ComponentType> Object::getComponents() {
+    vector<ComponentType> componentsReturn = vector<ComponentType>();
+    for (int i = 0; i < this->attachedComponents.size(); i++) {
+        if (this->attachedComponents[i]->GetInstance() == ComponentType::instance_component)
+        {
+            componentsReturn.emplace_back(this->attachedComponents[i]);
+        }
+    }
+    return componentsReturn;
+}
+
 
 
 #endif //MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_OBJECT_H

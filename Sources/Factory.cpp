@@ -3,15 +3,16 @@
 //
 
 #include "../Headers/Factory.h"
-#include "../Headers/PhysicsComponent.h"
-#include "../Headers/TransformComponent.h"
 
-std::unique_ptr<Component> Factory::createComponent(const std::string& type) {
+std::unique_ptr<Component> Factory::createComponent(const std::string& type, Object* obj) {
     if (type == "PhysicsComponent") {
-        return std::make_unique<PhysicsComponent>();
+        return std::make_unique<PhysicsComponent>(obj);
     }
     if (type == "TransformComponent") {
-        return std::make_unique<TransformComponent>();
+        return std::make_unique<TransformComponent>(obj);
+    }
+    if (type == "PlayerMovementComponent") {
+        return std::make_unique<PlayerMovementComponent>(obj);
     }
 
     return nullptr;

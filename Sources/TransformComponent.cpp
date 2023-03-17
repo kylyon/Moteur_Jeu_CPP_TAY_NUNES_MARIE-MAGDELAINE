@@ -18,6 +18,21 @@ TransformComponent::TransformComponent()
     this->scaleZ = 0.0f;
 }
 
+TransformComponent::TransformComponent(Object* obj):Component("TransformComponent", obj)
+{
+    this->positionX = 0.0f;
+    this->positionY = 0.0f;
+    this->positionZ = 0.0f;
+
+    this->rotationX = 0.0f;
+    this->rotationY = 0.0f;
+    this->rotationZ = 0.0f;
+
+    this->scaleX = 0.0f;
+    this->scaleY = 0.0f;
+    this->scaleZ = 0.0f;
+}
+
 std::string TransformComponent::getType() const {
     return "TransformComponent";
 }
@@ -41,4 +56,15 @@ void TransformComponent::Scale(float scaleX, float scaleY, float scaleZ)
     this->scaleX += scaleX;
     this->scaleY += scaleY;
     this->scaleZ += scaleZ;
+}
+
+void TransformComponent::Update()
+{
+    //cout << "TransformComponent Update" << endl;
+    cout << Component::objectAttached->getID() << " : " << this->positionX << " - " << this->positionY << " - " << this->positionZ << endl;
+}
+
+int TransformComponent::GetInstance()
+{
+    return TransformComponent::instance_component;
 }

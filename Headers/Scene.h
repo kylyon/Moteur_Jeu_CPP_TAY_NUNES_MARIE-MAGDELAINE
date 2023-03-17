@@ -10,6 +10,9 @@
 #include "vector"
 #include "ObjectManager.h"
 #include "TagManager.h"
+#include "Input.h"
+#define WIN32_LEAN_AND_MEAN 1
+#include "Windows.h"
 
 using namespace std;
 
@@ -20,7 +23,7 @@ class Scene
         string name;
         ObjectManager* objectManager;
         TagManager* tagManager;
-        vector<Object> objetByTag;
+        vector<Object*> objetByTag;
         int nbObjects;
 
     public:
@@ -43,7 +46,7 @@ class Scene
             return tagManager;
         }
 
-        vector<Object> FindObjectWithTag(Tag tag);
+        vector<Object*> FindObjectWithTag(Tag tag);
 };
 
 #endif //MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_SCENE_H

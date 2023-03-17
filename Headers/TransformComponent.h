@@ -14,6 +14,10 @@ public:
 
 public:
     TransformComponent();
+    TransformComponent(Object* obj);
+    static const int instance_component = 1;
+    void Update() override;
+    int GetInstance() override;
     std::string getType() const override;
     void Translate(float positionX, float positionY, float positionZ);
     void Rotate(float rotationX, float rotationY, float rotationZ);

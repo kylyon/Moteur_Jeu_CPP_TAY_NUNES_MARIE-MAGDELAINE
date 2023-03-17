@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE-Debug-83dd0b3920443c9ca215.json",
+					"name" : "Moteur_Jeu_CPP_TAY_NUNES_MARIE_MAGDELAINE",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE/cmake-build-debug",
+		"source" : "G:/Cours/2022-2023/Moteur de jeu/Moteur_Jeu_CPP_TAY_NUNES_MARIE-MAGDELAINE"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

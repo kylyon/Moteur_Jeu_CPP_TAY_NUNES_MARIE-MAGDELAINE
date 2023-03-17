@@ -7,19 +7,26 @@
 
 #include "iostream"
 #include "string"
+#include "Object.h"
+#include <cassert>
+#define assertm(exp, msg) assert(((void)msg, exp))
 
 using namespace std;
+class Object;
 
 class Component {
-    private:
+protected:
         int id;
         string name;
-        //Object* objectAttached;
+        Object* objectAttached;
 
     public:
         Component();
+        Component(string name, Object* obj);
         ~Component();
 
+        virtual void Update();
+        virtual int GetInstance();
         static const int instance_component = 0;
         virtual std::string getType() const = 0;
 };

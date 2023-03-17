@@ -11,19 +11,25 @@ using namespace std;
 
 class ObjectManager {
 private:
-    vector<Object> pool;
+    vector<Object*> pool;
+    vector<int> hashPool;
     int nbObject;
+    int nbComponents;
     static ObjectManager* singleton;
 
+    int FindFirstEmptyPlace();
 public:
     ObjectManager();
     static ObjectManager* GetInstance();
 
-    Object CreateObject(Tag tag, const std::vector<std::string>& componentTypes);
+    Object* CreateObject(Tag tag, const std::vector<std::string>& componentTypes);
     void DeleteObject(Object obj);
 
     int GetNbObject();
-    Object GetObject(int i);
+    int GetNbComponents();
+    Object* GetObjectFromPool(int i);
+
+    vector<Object*> GetPool();
 };
 
 

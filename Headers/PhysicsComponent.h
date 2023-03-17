@@ -8,7 +8,10 @@
 
 class PhysicsComponent : public Component {
 public:
+    PhysicsComponent(Object* obj);
     std::string getType() const override;
+    int GetInstance() override;
+    static const int instance_component = 3;
 };
 
 

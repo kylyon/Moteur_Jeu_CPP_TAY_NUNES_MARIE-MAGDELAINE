@@ -8,10 +8,13 @@
 #include <memory>
 #include <string>
 #include "Component.h"
+#include "PhysicsComponent.h"
+#include "TransformComponent.h"
+#include "PlayerMovementComponent.h"
 
 class Factory {
     public:
-        static std::unique_ptr<Component> createComponent(const std::string& type);
+        static std::unique_ptr<Component> createComponent(const std::string& type, Object* obj);
 };
 
 
