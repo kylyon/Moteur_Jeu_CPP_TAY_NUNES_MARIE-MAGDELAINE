@@ -14,7 +14,7 @@ public:
 
 public:
     TransformComponent();
-
+    std::string getType() const override;
     void Translate(float positionX, float positionY, float positionZ);
     void Rotate(float rotationX, float rotationY, float rotationZ);
     void Scale(float scaleX, float scaleY, float scaleZ);

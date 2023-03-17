@@ -7,10 +7,14 @@ int main() {
 
     //cout << "Taille de la pool avant : " << Object::g_Arena.m_cursor << endl;
 
-    Object obj1 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(0));
-    Object obj2 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(1));
-    Object obj3 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(1));
-    Object obj4 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(2));
+    vector<string> componentTypes = {};
+    Object obj1 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(0), componentTypes);
+    Object obj2 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(1), componentTypes);
+    Object obj3 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(1), {"PhysicsComponent", "TransformComponent"});
+    Object obj4 = scene.GetObjectManager()->CreateObject(scene.GetTagManager()->GetTag(2), componentTypes);
+
+    obj2.displayComponents();
+    obj3.displayComponents();
 
     //cout << "Taille de la pool après : " << Object::g_Arena.m_cursor << endl;
 

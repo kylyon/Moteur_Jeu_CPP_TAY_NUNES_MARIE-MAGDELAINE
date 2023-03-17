@@ -21,6 +21,7 @@ class Component {
         ~Component();
 
         static const int instance_component = 0;
+        virtual std::string getType() const = 0;
 };
 
 

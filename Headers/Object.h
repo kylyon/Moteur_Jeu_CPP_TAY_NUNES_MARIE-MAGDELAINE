@@ -52,6 +52,9 @@ class Object {
         void setTag(Tag tag);
 
         //
+        void displayComponents() const;
+
+        //
         void addComponent(Component* component);
         void removeComponent(Component* component);
 

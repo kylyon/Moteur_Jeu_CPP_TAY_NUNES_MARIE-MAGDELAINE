@@ -73,6 +73,14 @@ Tag Object::getTag() {
     return this->tag;
 }
 
+void Object::displayComponents() const {
+    std::cout << "Object ID: " << this->id << ", Components: ";
+    for (const auto& component : attachedComponents) {
+        std::cout << component->getType() << ", ";
+    }
+    std::cout << std::endl;
+}
+
 void Object::addComponent(Component* component) {
     if (count(attachedComponents.begin(), attachedComponents.end(), component)) {
         cout << "Component already attached";

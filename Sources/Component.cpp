@@ -7,3 +7,7 @@
 Component::Component() {
     this->name = "Component";
 }
+
+Component::~Component() {
+
+}

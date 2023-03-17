@@ -6,7 +6,7 @@
 #define MOTEUR_JEU_CPP_TAY_NUNES_MARIE_MAGDELAINE_OBJECTMANAGER_H
 #include "vector"
 #include "Object.h"
-
+#include "Factory.h"
 using namespace std;
 
 class ObjectManager {
@@ -19,7 +19,7 @@ public:
     ObjectManager();
     static ObjectManager* GetInstance();
 
-    Object CreateObject(Tag tag);
+    Object CreateObject(Tag tag, const std::vector<std::string>& componentTypes);
     void DeleteObject(Object obj);
 
     int GetNbObject();

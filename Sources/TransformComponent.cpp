@@ -18,6 +18,10 @@ TransformComponent::TransformComponent()
     this->scaleZ = 0.0f;
 }
 
+std::string TransformComponent::getType() const {
+    return "TransformComponent";
+}
+
 void TransformComponent::Translate(float positionX, float positionY, float positionZ)
 {
     this->positionX += positionX;
